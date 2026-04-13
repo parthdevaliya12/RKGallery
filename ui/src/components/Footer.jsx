@@ -20,7 +20,7 @@ export default function Footer() {
           </h2>
 
           <p className="text-sm text-gray-300 mt-3 leading-relaxed">
-            A premium divine gallery experience built with React & Tailwind.
+           
             Explore beauty, devotion, and creativity in one place.
           </p>
 
