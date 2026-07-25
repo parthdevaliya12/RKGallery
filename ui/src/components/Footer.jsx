@@ -53,8 +53,8 @@ export default function Footer() {
             Feel the divine presence. Have suggestions or want to connect?
           </p>
 
-          <a href="mailto:devparth63@gmail.com" className="inline-block px-5 py-3 rounded-lg bg-white/5 border border-white/5 hover:border-amber-400/30 hover:bg-amber-500/10 transition-all text-sm text-slate-200">
-            📩 devparth63@gmail.com
+          <a href="mailto:parthdevaliya.official@gmail.com" className="inline-block px-5 py-3 rounded-lg bg-white/5 border border-white/5 hover:border-amber-400/30 hover:bg-amber-500/10 transition-all text-sm text-slate-200">
+            📩 parthdevaliya.official@gmail.com
           </a>
 
           <div className="mt-6">
