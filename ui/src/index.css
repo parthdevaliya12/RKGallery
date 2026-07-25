@@ -1,24 +1,31 @@
 @import "tailwindcss";
 
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap');
+
 /* FORCE CLASS DARK MODE */
 @custom-variant dark (&:where(.dark, .dark *));
 
 html {
   scroll-behavior: smooth;
-  font-family: "Space Grotesk", sans-serif;
-
-}
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: scale(0.95);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
+  font-family: "Inter", sans-serif;
+  background-color: #020617; /* Slate 950 */
 }
 
-.animate-fadeIn {
-  animation: fadeIn 0.4s ease;
+h1, h2, h3, h4, h5, h6, .font-serif {
+  font-family: "Cinzel", serif;
+}
+
+/* Custom Scrollbar for a premium feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #020617; 
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #fbbf24; 
 }
